@@ -1,26 +1,15 @@
 import React from 'react'
+import './CSS/App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Header from './Containers/Header'
 import Home from './Components/Home'
-import About from './Components/About'
+
 
 function App() {
 
   return (
     <div className="app">
-      {/* Header contains navbars to other components and sticks at the top in every page */}
       <Router>
-        <Header />
-
-        <Switch>
-          <Route path='/About'>
-            <About/>
-          </Route>
-          <Route path='/'>
-            <Home />
-          </Route>
-        </Switch>
-
+        <Home />
       </Router>
     </div>
   );
