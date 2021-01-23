@@ -10,29 +10,29 @@ import {
     NavLink,
     NavBtn,
     NavBtnLink
-} from './NavbarElements'
+} from '../StyledComponents/NavbarElements'
 
-function Navbar() {
+function Navbar({ toggle }) {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>Home</NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
-                    </MobileIcon>
+                    </MobileIcon >
                     <NavMenu>
                         <NavItem>
                             <NavLink to='/about'>About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/discover'>Discover</NavLink>
+                            <NavLink to='/discover'>Projects</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink to='/services'>Services</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/contact'>Contact</NavLink>
+                            <NavLink to='contact'>Contact</NavLink>
                         </NavItem>
                         <NavBtn>
                             <NavBtnLink to='/signin'>Sign In</NavBtnLink>
