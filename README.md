@@ -1,6 +1,8 @@
 # Prototype Portfolio Website
 
-    Completion: In progress 0%
+This is website is designed using Styled Components (https://styled-components.com/)
+
+    Completion: In progress 50%
 
 # Getting Started with Create React App
 

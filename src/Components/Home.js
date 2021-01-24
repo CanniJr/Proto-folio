@@ -4,6 +4,7 @@ import '../CSS/Home.css'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import Info from './Info'
+import { homeObj1 } from './Data'
 
 function Home() {
     const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +18,7 @@ function Home() {
             <Sidebar isOpen={isOpen} toggle={ toggle }/>
             <Navbar toggle={toggle} />
             <Hero />
-            <Info/>
+            <Info  {...homeObj1}/>
         </>
     )
 }
