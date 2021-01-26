@@ -4,7 +4,7 @@ import '../CSS/About.css'
 function About() {
     return (
         <div>
-            <h1>About me Page!</h1>
+           <h1>Styled components here!</h1>
         </div>
     )
 }
