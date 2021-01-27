@@ -12,6 +12,6 @@ export const homeObj1 = {
     alt: 'Me',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: false
 };
 
