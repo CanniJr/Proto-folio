@@ -1,6 +1,6 @@
 export const homeObj1 = {
     id: 'about',
-    lightBg: true,  //Info Section Background
+    lightBg: false,  //Info Section Background
     lightText: true,
     lightTextDesc: true,
     topLine: 'Who Am I',

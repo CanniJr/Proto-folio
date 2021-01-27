@@ -26,7 +26,7 @@ export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr)
     align-items: center;
-    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col2 col1'`)}; 
+    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)}; 
     @media screen and (max-width: 768px){
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'` )} 
     }
@@ -39,9 +39,9 @@ export const Column1 = styled.div`
 `
 
 export const Column2 = styled.div`
-    max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 60px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col2;
 `
 
 export const TextWrapper = styled.div`
@@ -77,7 +77,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? `#010606` : '#fff')}
+    color: ${({darkText}) => (darkText ? `#fff` : '#010606')}
 `
 
 export const BtnWrap = styled.div`
@@ -91,7 +91,7 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
-    width: 100%;
+    max-width: 60%;
     margin: 0 0 10px 0;
     padding-right: 0;
 `
