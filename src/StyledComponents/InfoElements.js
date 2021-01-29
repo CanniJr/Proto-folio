@@ -46,9 +46,12 @@ export const Column2 = styled.div`
 `
 
 export const TextWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+    align-items: center;
 `
 
 export const TopLine = styled.p`

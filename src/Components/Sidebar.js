@@ -5,9 +5,9 @@ import {
     CloseIcon,
     SidebarWrapper,
     SidebarMenu,
-    SidebarRoute,
     SidebarLink,
-    SideBtnWrap
+    // SidebarRoute,
+    // SideBtnWrap
 } from '../StyledComponents/SidebarElements'
 
 function Sidebar({isOpen, toggle}) {
@@ -18,22 +18,19 @@ function Sidebar({isOpen, toggle}) {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='/about' onClick={toggle}>
+                    <SidebarLink to='about' onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to='/discover' onClick={toggle}>
-                        Discover
+                    <SidebarLink to='projects' onClick={toggle}>
+                        Projects
                     </SidebarLink>
-                    <SidebarLink to='/services' onClick={toggle}>
-                        Services
-                    </SidebarLink>
-                    <SidebarLink to='/contact' onClick={toggle}>
+                    <SidebarLink to='contact' onClick={toggle}>
                         Contact
                     </SidebarLink>
                 </SidebarMenu>
-                <SideBtnWrap>
+                {/* <SideBtnWrap>
                     <SidebarRoute to='/signin'>Sign In</SidebarRoute>
-                </SideBtnWrap>
+                </SideBtnWrap> */}
             </SidebarWrapper>
         </SidebarContainer>
     )

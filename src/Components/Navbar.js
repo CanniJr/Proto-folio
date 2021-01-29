@@ -8,8 +8,8 @@ import {
     NavMenu,
     NavItem,
     NavLink,
-    NavBtn,
-    NavBtnLink
+    // NavBtn,
+    // NavBtnLink
 } from '../StyledComponents/NavbarElements'
 
 function Navbar({ toggle }) {
@@ -23,23 +23,20 @@ function Navbar({ toggle }) {
                     </MobileIcon >
                     <NavMenu>
                         <NavItem>
-                            <NavLink to='/about'>About</NavLink>
+                            <NavLink to='about'>About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/discover'>Projects</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink to='/services'>Services</NavLink>
+                            <NavLink to='projects'>Projects</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink to='contact'>Contact</NavLink>
                         </NavItem>
-                        <NavBtn>
+                        {/* <NavBtn>
                             <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-                        </NavBtn>
+                        </NavBtn> */}
                     </NavMenu>
                 </NavbarContainer>
-            </Nav>    
+            </Nav> 
         </>
     )
 }
