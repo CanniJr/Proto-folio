@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import Info from './Info'
 import { homeObj1, homeObj2, homeObj3 } from './Data'
+import Projects from './Projects'
 
 function Home() {
     const [isOpen, setIsOpen] = useState(false)
@@ -20,6 +21,7 @@ function Home() {
             <Hero />
             <Info  {...homeObj1} />
             <Info  {...homeObj2} />
+            <Projects />
             <Info  {...homeObj3} />
             
         </>
