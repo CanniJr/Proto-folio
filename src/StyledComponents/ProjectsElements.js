@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
+    border-top: 1px solid lightgrey;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -37,10 +38,10 @@ export const ProjectsWrapper = styled.div`
 `
 
 export const ProjectsCard = styled.div`
-    backgroundL #fff;
+    background: #fff;
     display: flex;
-    flex-direction: flex-start;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     border-radius: 10px;
     max-height: 340px;
     padding: 30px;

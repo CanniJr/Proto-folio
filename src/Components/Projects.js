@@ -8,11 +8,14 @@ import {
     ProjectsIcon,
     ProjectsP
 } from '../StyledComponents/ProjectsElements'
+import icon1 from '../images/img-3.svg'
+import icon2 from '../images/img-4.svg'
+import icon3 from '../images/img-7.svg'
 
 function Projects() {
     return (
         <>
-            <ProjectsContainer id='projects'>
+            <ProjectsContainer id='projectCards'>
                 <ProjectsH1>My Projects</ProjectsH1>
                 <ProjectsWrapper>
                     <ProjectsCard>

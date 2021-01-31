@@ -26,7 +26,7 @@ function Hero() {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Welcome to my Portfolio</HeroH1>
+                <HeroH1>HELLO ;</HeroH1>
                 <HeroP>Scroll down to see What's up!</HeroP>
                 <HeroBtnWrapper>
                     <Button to='about'

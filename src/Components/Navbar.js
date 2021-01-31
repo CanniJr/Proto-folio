@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { FaBars } from 'react-icons/fa'
 import {
     Nav,
@@ -13,11 +13,26 @@ import {
 } from '../StyledComponents/NavbarElements'
 
 function Navbar({ toggle }) {
+    const [scrollNav, setScrollNav] = useState(false)
+
+    //Conditional to set NavBar Transparency
+    const changeNav = () => {
+        if (window.scrollY >= 80) {
+            setScrollNav(true)
+        } else {
+            setScrollNav(false)
+        }
+    }
+
+    useEffect(
+        () => {
+        window.addEventListener('scroll', changeNav)
+    }, [])
     return (
         <>
-            <Nav>
+            <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/'>Home</NavLogo>
+                    <NavLogo to='/'>Cannigia Laluw</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon >

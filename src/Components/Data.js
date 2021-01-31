@@ -2,26 +2,26 @@
 
 export const homeObj1 = {
     id: 'about',
-    lightBg: false,  //Info Section Background
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Who Am I',
-    headLine: 'I am',
+    lightBg: true,  //Info Section Background
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Cannigia J. Laluw',
+    headLine: 'Full-Stack Software Developer with a background in Hospitality Management. I moved to the United States in 2013 after graduating college in Indonesia.',
     description: 'Spiderman',
     buttonLabel: 'Get Started',
     imgStart: false,
     img: require('../images/pp.jpg').default,
     alt: 'Me',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
 
 export const homeObj2 = {
     id: 'projects',
-    lightBg: true,  //Info Section Background
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,  //Info Section Background
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'My Projects',
     headLine: 'I am',
     description: 'Spiderman',
@@ -29,16 +29,16 @@ export const homeObj2 = {
     imgStart: true,
     img: require('../images/img-1.png').default,
     alt: 'Me',
-    dark: false,
-    primary: false,
-    darkText: true
+    dark: true,
+    primary: true,
+    darkText: false
 };
 
 export const homeObj3 = {
     id: 'contact',
-    lightBg: false,  //Info Section Background
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,  //Info Section Background
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Contact Me',
     headLine: 'I am',
     description: 'Spiderman',
@@ -46,8 +46,8 @@ export const homeObj3 = {
     imgStart: false,
     img: require('../images/img-2.png').default,
     alt: 'Me',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
 

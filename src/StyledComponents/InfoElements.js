@@ -54,20 +54,23 @@ export const TextWrapper = styled.div`
     align-items: center;
 `
 
-export const TopLine = styled.p`
+// text-transform: uppercase;
+// line-weight: 16px;
+export const TopLine = styled.h1`
+    display: flex;
+    justify-content: center;
     color: #01bf71;
-    font-size: 16px;
-    line-weight: 16px;
+    font-size: 48px;
     font-weight: 700;
     letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
 `
 
-export const Heading = styled.h1`
+export const Heading = styled.p`
+    justify-content: space-between;
     margin-bottom: 24px;
-    font-size: 48px;
-    line-height: 1.1;
+    font-size: 16px;
+    line-height: 1.6;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
     
@@ -98,4 +101,6 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
+    border-radius: 999px
+
 `
