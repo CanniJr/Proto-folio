@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import Video from '../videos/coding.mp4'
+import Desert from '../images/Desert.jpg'
 import {Button} from './LoneButton'
 import {
     HeroContainer,
     HeroBg,
-    VideoBg,
+    ImageBg,
     HeroContent,
     HeroH1,
     HeroP,
@@ -23,7 +23,8 @@ function Hero() {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
+                <ImageBg src={Desert} alt='desert me' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>HELLO ;</HeroH1>

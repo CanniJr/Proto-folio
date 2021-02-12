@@ -4,8 +4,9 @@ import '../CSS/Home.css'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import Info from './Info'
-import { homeObj1, homeObj2, homeObj3 } from './Data'
 import Projects from './Projects'
+import Footer from './Footer'
+import { homeObj1, homeObj2, homeObj3 } from './Data'
 
 function Home() {
     const [isOpen, setIsOpen] = useState(false)
@@ -23,7 +24,7 @@ function Home() {
             <Info  {...homeObj2} />
             <Projects />
             <Info  {...homeObj3} />
-            
+            <Footer />
         </>
     )
 }
