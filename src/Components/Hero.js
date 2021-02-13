@@ -27,8 +27,8 @@ function Hero() {
                 <ImageBg src={Desert} alt='desert me' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>HELLO ;</HeroH1>
-                <HeroP>Scroll down to see What's up!</HeroP>
+                <HeroH1>Hi There;</HeroH1>
+                <HeroP>Web Developer • Marathoner </HeroP>
                 <HeroBtnWrapper>
                     <Button to='about'
                         onMouseEnter={onHover}

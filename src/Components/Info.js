@@ -41,7 +41,7 @@ function Info({
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                                {/* <BtnWrap>
+                                { id === 'about' ? <BtnWrap>
                                     <Button to='/home'
                                         smooth={true}
                                         duration={500}
@@ -52,7 +52,9 @@ function Info({
                                         dark={dark ? 1 : 0}
                                         dark2={dark2 ? 1 : 0}
                                     >{buttonLabel}</Button>
-                                </BtnWrap> */}
+                                    </BtnWrap> 
+                                : null
+                            }
                             </TextWrapper>
                         </Column1>
                         <Column2>

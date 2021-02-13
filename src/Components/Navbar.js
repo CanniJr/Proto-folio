@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import { FaBars } from 'react-icons/fa'
+import image from '../images/pp.jpg'
 import {
     Nav,
     NavbarContainer,
+    MyIcon,
     NavLogo,
     MobileIcon,
     NavMenu,
@@ -32,7 +34,8 @@ function Navbar({ toggle }) {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/'>Cannigia Laluw</NavLogo>
+                    <MyIcon src={ image } alt='me_icon' />
+                    <NavLogo to='/'>CJ</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon >

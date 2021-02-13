@@ -6,6 +6,7 @@ import Sidebar from './Sidebar'
 import Info from './Info'
 import Projects from './Projects'
 import Footer from './Footer'
+import Message from './Message'
 import { homeObj1, homeObj2, homeObj3 } from './Data'
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
             <Info  {...homeObj2} />
             <Projects />
             <Info  {...homeObj3} />
+            <Message />
             <Footer />
         </>
     )

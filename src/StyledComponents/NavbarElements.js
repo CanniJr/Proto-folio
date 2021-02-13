@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav ? '#800' : 'transparent')};
-    height: 80px;
+    height: 70px;
     display: flex;
     margin-top: -80px;
     align-items: center;
@@ -21,21 +21,28 @@ export const Nav = styled.nav`
 // max-width: 1100px;
 export const NavbarContainer = styled.div`
     display: flex;
-    justify-content: space-between;
-    height: 80px;
+    align-items: center;
+    height: 60px;
     z-index: 1;
     width: 100%;
     padding: 0 24px;
 `
 
+export const MyIcon = styled.img`
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+`
+
+// margin-left: -200px;
 export const NavLogo = styled(LinkR)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
+    margin-left: 25px;
     display: flex;
     align-items: center;
-    margin-left: 24px;
     font-weiht: bold;
     text-decoration: none;
 `
@@ -59,7 +66,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    margin-left: auto;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -67,7 +74,8 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
-    height: 80px;
+    margin-top: 10px;
+    height: 100px;
 `
 
 export const NavLink = styled(LinkS)`
