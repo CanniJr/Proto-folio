@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { FaBars } from 'react-icons/fa'
+import {animateScroll as scroll} from 'react-scroll'
 import image from '../images/pp.jpg'
 import {
     Nav,
@@ -30,24 +31,36 @@ function Navbar({ toggle }) {
         () => {
         window.addEventListener('scroll', changeNav)
     }, [])
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
+    
+
     return (
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <MyIcon src={ image } alt='me_icon' />
-                    <NavLogo to='/'>CJ</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>CJ</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon >
                     <NavMenu>
                         <NavItem>
-                            <NavLink to='about'>About</NavLink>
+                            <NavLink to='about'
+                                smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                            >About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='projects'>Projects</NavLink>
+                            <NavLink to='projects'
+                                smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                            >Projects</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='contact'>Contact</NavLink>
+                            <NavLink to='contact'
+                                smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                            >Contact</NavLink>
                         </NavItem>
                         {/* <NavBtn>
                             <NavBtnLink to='/signin'>Sign In</NavBtnLink>

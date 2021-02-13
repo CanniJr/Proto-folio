@@ -23,12 +23,11 @@ function Hero() {
     return (
         <HeroContainer>
             <HeroBg>
-                {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
                 <ImageBg src={Desert} alt='desert me' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Hi There;</HeroH1>
-                <HeroP>Web Developer • Marathoner </HeroP>
+                <HeroH1>Selamat Datang! 🇮🇩</HeroH1>
+                <HeroP>I am a web developer based in New York City.</HeroP>
                 <HeroBtnWrapper>
                     <Button to='about'
                         onMouseEnter={onHover}

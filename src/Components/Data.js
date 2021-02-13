@@ -6,7 +6,7 @@ export const homeObj1 = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Cannigia J. Laluw',
-    headLine: 'I am a web developer from Indonesia, Jakarta and currently living in New York City. I enjoy building web apps and it has been a passion of mine ever since I started coding. If you are an employer, you can get in touch with me here.',
+    headLine: 'Born and raised in Jakarta, Indonesia and currently living in New York City. I enjoy running and also building web apps which has been a passion of mine ever since I started coding. If you are an employer, you can get in touch with me here.',
     description: '',
     buttonLabel: 'My Resume',
     imgStart: false,

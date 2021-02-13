@@ -6,7 +6,7 @@ const Message = () => {
   const initialInputState = { name: "", message: "", email:"" };
   const [newMessage, setNewMessage] = useState(initialInputState);
 
-  const { name, message } = newMessage;
+  const { name, message, email } = newMessage;
 
   const handleInputChange = e => {
     setNewMessage({ ...newMessage, [e.target.name]: e.target.value });
@@ -34,7 +34,7 @@ const Message = () => {
     <div>
       <Row>
         <Col sm="12" md={{ size: 6, offset: 3 }} className="text-center mt-4">
-          <h2>Send a Message</h2>
+          <h2>Send me a Message</h2>
         </Col>
       </Row>
       <Row className="mt-4">
@@ -47,6 +47,15 @@ const Message = () => {
                 onChange={handleInputChange}
                 value={name}
                 placeholder="Enter your name here"
+              ></Input>
+            </FormGroup>
+            <FormGroup>
+              <Label for="email">Email</Label>
+              <Input
+                name="name"
+                onChange={handleInputChange}
+                value={email}
+                placeholder="Enter your email here"
               ></Input>
             </FormGroup>
             <FormGroup>
