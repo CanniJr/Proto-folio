@@ -81,8 +81,8 @@ export const Heading = styled.p`
 
 export const Subtitle = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
-    font-size: 18px;
+    margin-top: 50px;
+    font-size: 15px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? `#010606` : '#fff')}
 `
@@ -102,5 +102,10 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
     border-radius: 999px
+
+`
+
+export const SocialWrap = styled.div`
+    margin-top: -20px;
 
 `

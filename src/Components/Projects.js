@@ -20,8 +20,8 @@ function Projects() {
                 <ProjectsWrapper>
                     <ProjectsCard>
                         <ProjectsIcon src={icon1} />
-                        <ProjectsH2>Project 1</ProjectsH2>
-                        <ProjectsP>Blablblablabla</ProjectsP>
+                        <ProjectsH2>Amaclone</ProjectsH2>
+                        <ProjectsP>E-commerce website using Google Firebase to host website, store user database, and easy login. Also implemented Stripe to process payments by user.</ProjectsP>
                     </ProjectsCard>
                     <ProjectsCard>
                         <ProjectsIcon src={icon2} />

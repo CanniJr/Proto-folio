@@ -11,6 +11,7 @@ import {
     NavMenu,
     NavItem,
     NavLink,
+    NavLinkR,
     // NavBtn,
     // NavBtnLink
 } from '../StyledComponents/NavbarElements'
@@ -61,6 +62,10 @@ function Navbar({ toggle }) {
                             <NavLink to='contact'
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
                             >Contact</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinkR to='/resume'
+                            >Resume</NavLinkR>
                         </NavItem>
                         {/* <NavBtn>
                             <NavBtnLink to='/signin'>Sign In</NavBtnLink>

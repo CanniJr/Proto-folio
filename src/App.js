@@ -2,6 +2,7 @@ import React from 'react'
 import './CSS/App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Home from './Components/Home'
+import Resume from './Components/Resume'
 import Axios from 'axios'
 
 
@@ -22,7 +23,14 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <Home />
+        <Switch>
+          <Route exact path='/resume'>
+            <Resume />
+          </Route>
+          <Route path='/'>
+           <Home/>
+          </Route>
+        </Switch>
       </Router>
     </div>
   );

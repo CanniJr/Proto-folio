@@ -41,7 +41,7 @@ export const ProjectsCard = styled.div`
     background: #fff;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 10px;
     max-height: 340px;
     padding: 30px;
@@ -73,6 +73,7 @@ export const ProjectsH1 = styled.h1`
 `
 export const ProjectsH2 = styled.h2`
     font-size: 1rem;
+    font-weight: 1rem;
     margin-bottom: 10px;
 `
 
