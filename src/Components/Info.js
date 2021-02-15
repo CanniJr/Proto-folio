@@ -3,6 +3,7 @@ import { Button } from './LoneButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import BookIcon from '@material-ui/icons/Book';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import MyPDF from '../pages/resume.pdf'
 import {
     BtnWrap,
     Column1,
@@ -46,14 +47,10 @@ function Info({
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 {id === 'about' ?
-                                <Button>
-                                    <a href='https://drive.google.com/file/d/1nPuOkJmPZiJhR3gRbl7FEXzZopavQ9t8/view?usp=sharing'
-                                        target="_blank"
-                                        rel='noreferrer'
-                                        download>
-                                        My Resume
+                                    <a href={MyPDF}
+                                        download="cannigia_resume.pdf">
+                                        Download My Resume
                                     </a>
-                                </Button>
                                 : null
                                 }
                                 {id === 'contact' ?

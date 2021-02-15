@@ -63,10 +63,10 @@ function Navbar({ toggle }) {
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80}
                             >Contact</NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinkR to='/resume'
                             >Resume</NavLinkR>
-                        </NavItem>
+                        </NavItem> */}
                         {/* <NavBtn>
                             <NavBtnLink to='/signin'>Sign In</NavBtnLink>
                         </NavBtn> */}
