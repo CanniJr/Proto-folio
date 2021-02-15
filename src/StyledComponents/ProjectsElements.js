@@ -38,21 +38,34 @@ export const ProjectsWrapper = styled.div`
 `
 
 export const ProjectsCard = styled.div`
+    margin: 10px;
     background: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
-    padding: 30px;
+    height: 400px;
+    padding: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);;
     transition: all 0.2s ease-in-out;
 
     &:hover {
-        transform: scale(1.02);
+        transform: scale(1.05);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+`
+
+export const ProjectsLink = styled.div`
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+`
+
+export const LinksP = styled.p`
+    margin-right: 15px;
 `
 
 export const ProjectsIcon = styled.img`
@@ -72,12 +85,11 @@ export const ProjectsH1 = styled.h1`
     }
 `
 export const ProjectsH2 = styled.h2`
-    font-size: 1rem;
-    font-weight: 1rem;
+    font-weight: 2rem;
     margin-bottom: 10px;
 `
 
 export const ProjectsP = styled.p`
-    font-size: 1rem;
+    font-size: 12px;
     text-align: center;
 `

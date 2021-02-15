@@ -27,7 +27,7 @@ function Hero() {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Selamat Datang! 🇮🇩</HeroH1>
-                <HeroP>I am a web developer based in New York City.</HeroP>
+                <HeroP>Hi! I'm a Full-Stack web developer based in New York City.</HeroP>
                 <HeroBtnWrapper>
                     <Button to='about'
                         onMouseEnter={onHover}
