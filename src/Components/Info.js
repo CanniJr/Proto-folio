@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button } from './LoneButton';
+// import { Button } from './LoneButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import BookIcon from '@material-ui/icons/Book';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MyPDF from '../pages/resume.pdf'
 import {
-    BtnWrap,
+    // BtnWrap,
     Column1,
     Column2,
     Heading,

@@ -11,7 +11,7 @@ import {
     NavMenu,
     NavItem,
     NavLink,
-    NavLinkR,
+    // NavLinkR,
     // NavBtn,
     // NavBtnLink
 } from '../StyledComponents/NavbarElements'
