@@ -58,9 +58,15 @@ function Info({
                                 }
                                 {id === 'contact' ?
                                     <SocialWrap>
-                                        <GitHubIcon style={{ color: 'grey', marginRight: '12px'}}  />
-                                        <BookIcon style={{color: 'black', marginRight: '12px'}}/>
-                                        <LinkedInIcon color='primary'/>
+                                        <a href='https://github.com/CanniJr'>
+                                            <GitHubIcon style={{ color: 'grey', marginRight: '12px'}}  />
+                                        </a>
+                                        <a href='https://cannigialaluw.medium.com/'>
+                                            <BookIcon style={{color: 'black', marginRight: '12px'}}/>
+                                        </a>
+                                        <a href='https://www.linkedin.com/in/cannigialaluw/'>
+                                            <LinkedInIcon color='primary'/>
+                                        </a>
                                     </SocialWrap>
                                     : null
                                 }
