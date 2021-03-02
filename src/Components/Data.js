@@ -6,10 +6,10 @@ export const homeObj1 = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Cannigia J. Laluw',
-    headLine: `Born and raised in Jakarta, Indonesia and currently living in New York City. I graduated college majoring in Hospitality Management and worked at Five-Star hotel and restaurants before I made the move to the United States. Leaving everything I've known my entire life was not an easy decision, but I made some good progress while trying to survive in the Big Apple.                        
-    I did some learning on how to code by myself while also working full-time, but eventually enrolled in Flatiron School Software Engineering BootCamp and it has kick-started what I've been wanting to get my hands on ever since I was little, which is getting a behind-the-scenes look of an app. 
+    headLine: `Passionately learning. I am a Full-Stack Software Developer leaning into Front End Technology.
+    I Graduated from Flatiron School Software Engineering Bootcamp to pursue my passion for tech.
     
-    I enjoy running, traveling, badminton, video games and also building web apps. It has become a passion of mine once my coding journey began. If you are an employer, you can get in touch with me here.`,
+    My life has been about overcoming drastic changes ever since I made the move to the United States. I'm excited to see what's ahead of me as an aspiring software developer, and how I can make a positive impact in what I do and on those around me. `,
     description: '',
     buttonLabel: 'My Resume',
     imgStart: false,

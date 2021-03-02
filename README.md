@@ -1,8 +1,12 @@
 # Prototype Portfolio Website
+added changes to data.js and home.js
+
+want to provide feedback ?
+email me at: cannigialaluw@gmail.com 
 
 This is website is designed using Styled Components (https://styled-components.com/)
 
-    Completion: In progress 50%
+    Completion: In progress 75%
 
 # Getting Started with Create React App
 
