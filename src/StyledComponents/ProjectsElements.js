@@ -42,7 +42,7 @@ export const ProjectsCard = styled.div`
     background: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 10px;
     height: 400px;
@@ -87,6 +87,7 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsH2 = styled.h2`
     font-weight: 2rem;
     margin-bottom: 10px;
+    justify-content: center;
 `
 
 export const ProjectsP = styled.p`

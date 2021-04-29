@@ -26,7 +26,7 @@ export const homeObj2 = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'My Projects',
-    headLine: 'Most of my projects are made with React.js. I am currently learning Python and will keep this page updated with more projects, so stay tuned!',
+    headLine: 'Most of my projects are made with React.js. I will keep this page updated with more projects, so stay tuned!',
     description: 'Ruby • Ruby on Rails • JavaScript • React • postgreSQL • Google Firebase • HTML • CSS • RESTful API',
     buttonLabel: 'Get Started',
     imgStart: true,
